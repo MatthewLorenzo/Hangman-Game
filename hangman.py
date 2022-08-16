@@ -13,7 +13,7 @@ pygame.display.set_caption("Hangman Game")
 #loading images 
 images = []
 for i in range(7):
-  image = pygame.image.load("hangman" + str(i) + ".png")
+  image = pygame.image.load("/Users/mattlorenzo/Desktop/projects/Hangman-Game/hangman" + str(i) + ".png")
   images.append(image)
 
 print(images)
